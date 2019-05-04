@@ -9,3 +9,12 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+.header-area {
+  background: red;
+}
+.cards-area {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}

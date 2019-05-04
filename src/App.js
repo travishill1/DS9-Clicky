@@ -23,19 +23,20 @@ class App extends React.Component {
   render(){
     return (
       <Wrapper>
+        {/* <div className="header-area"> */}
         <h1 className="title">React Clicky Game</h1>
         <h3 className="subtext">Click on an image to earn points, but don't click on any more than once!</h3>
+        {/* </div> */}
+        {/* <div className="cards-area"> */}
         {this.state.friends.map(friend => (
           <FriendCard
-            // name={friend.name}
             id={friend.id}
             key={friend.id}
             image={friend.image}
-            // occupation={friend.occupation}
-            // location={friend.location}
           />
         )
         )}
+        {/* </div> */}
       </Wrapper>
     );
   }
