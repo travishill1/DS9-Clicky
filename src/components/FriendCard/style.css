@@ -21,4 +21,5 @@
 
 .card:hover {
 background: red;
+cursor: pointer;
 }
