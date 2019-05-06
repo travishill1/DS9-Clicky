@@ -1,10 +1,11 @@
 import React from "react";
 import "./style.css";
 
-
-function FriendCard(props) {
+const FriendCard = props => {
   return (
-    <div className="card">
+    <div
+      onClick={() => props.cardClick(props.id)}
+      className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>

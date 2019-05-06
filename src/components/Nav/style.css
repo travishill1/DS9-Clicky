@@ -4,34 +4,35 @@
   min-height: 70px;
   position: fixed;
   width: 100%;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  font-size: calc(10px + (24 - 10) * (100vw - 320px) / (1200 - 400));
   z-index: 99;
   white-space: nowrap;
 }
 
 .nav-title {
   text-decoration: none;
-  color: yellow;
+  color: goldenrod;
   font-weight: 800;
-  list-style-type: none;
   font-size: 2rem;
   padding: 1% 1% 1% 5%;
+  margin: 0 auto;
+  /* margin-left: 1%; */
 }
 
 .message {
   text-decoration: none;
-  color: yellow;
+  color: goldenrod;
   font-weight: 800;
-  list-style-type: none;
   font-size: 2rem;
   margin: 0 auto;
+  margin-left: -4%;
+  padding: 1%;
 }
 
 .scores {
   text-decoration: none;
-  color: yellow;
+  color: goldenrod;
   font-weight: 800;
-  list-style-type: none;
   font-size: 2rem;
+  margin: 0 auto;
+  padding: 1%;
 }
