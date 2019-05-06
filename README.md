@@ -1,4 +1,4 @@
-# React-Clicky
+# DS9-Clicky
 
 ## Description  
 DS9 Clicky is a Star Trek memory game created with React. <br>
