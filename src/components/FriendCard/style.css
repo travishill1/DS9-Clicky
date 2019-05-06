@@ -22,4 +22,5 @@
 .card:hover {
 background: red;
 cursor: pointer;
+transform: scale(1.10);
 }

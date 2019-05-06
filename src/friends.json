@@ -2,61 +2,73 @@
   {
     "id": 1,
     "name": "Captain Sisco",
-    "image": "https://pixel.nymag.com/imgs/daily/vulture/2018/01/04/04-deep-space-9-214.w710.h473.2x.jpg"
+    "image": "https://pixel.nymag.com/imgs/daily/vulture/2018/01/04/04-deep-space-9-214.w710.h473.2x.jpg",
+    "clicked": false
   },
   {
     "id": 2,
     "name": "Kira Nerys",
-    "image": "https://alchetron.com/cdn/kira-nerys-eb9e894d-7032-4f38-880f-fe0ac6d9d86-resize-750.jpeg"
+    "image": "https://alchetron.com/cdn/kira-nerys-eb9e894d-7032-4f38-880f-fe0ac6d9d86-resize-750.jpeg",
+    "clicked": false
   },
   {
     "id": 3,
     "name": "Dax",
-    "image": "http://images2.fanpop.com/images/photos/8400000/Jadzia-Dax-star-trek-deep-space-nine-8476384-1000-1165.jpg"
+    "image": "http://images2.fanpop.com/images/photos/8400000/Jadzia-Dax-star-trek-deep-space-nine-8476384-1000-1165.jpg",
+    "clicked": false
   },
   {
     "id": 4,
     "name": "Odo",
-    "image": "http://ds9.trekcore.com/gallery/albums/5x20/childrenoftime004.jpg"
+    "image": "http://ds9.trekcore.com/gallery/albums/5x20/childrenoftime004.jpg",
+    "clicked": false
   },
   {
     "id": 5,
     "name": "Dr. Bashir",
-    "image": "http://www.treknews.net/wp-content/uploads/2017/03/star-trek-ds9-bashir.jpg"
+    "image": "http://www.treknews.net/wp-content/uploads/2017/03/star-trek-ds9-bashir.jpg",
+    "clicked": false
   },
   {
     "id": 6,
     "name": "Quark",
-    "image": "https://scifanatic-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/armin-ds9-publicty.jpg"
+    "image": "https://scifanatic-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/armin-ds9-publicty.jpg",
+    "clicked": false
   },
   {
     "id": 7,
     "name": "Worf",
-    "image": "http://www.durfee.net/startrek/images/ds9484.jpg"
+    "image": "http://www.durfee.net/startrek/images/ds9484.jpg",
+    "clicked": false
   },
   {
     "id": 8,
     "name": "Rom",
-    "image": "https://vignette.wikia.nocookie.net/p__/images/5/50/RomST.jpg/revision/latest?cb=20161226203828&path-prefix=protagonist"
+    "image": "https://media.wired.com/photos/59330d5b4cd5ce6f96c0c26f/master/pass/rommain.jpg",
+    "clicked": false
   },
   {
     "id": 9,
     "name": "Jake Sisco",
-    "image": "https://66.media.tumblr.com/a3ab3f49a9b783fa67174b46b576ed0c/tumblr_nrx9arp4dC1ryfpsio1_500.jpg"
+    "image": "https://66.media.tumblr.com/a3ab3f49a9b783fa67174b46b576ed0c/tumblr_nrx9arp4dC1ryfpsio1_500.jpg",
+    "clicked": false
   },
   {
     "id": 10,
     "name": "Chief O'Brien",
-    "image": "https://thenerdsofcolor.files.wordpress.com/2013/09/amatterofhonor016.jpg"
+    "image": "https://thenerdsofcolor.files.wordpress.com/2013/09/amatterofhonor016.jpg",
+    "clicked": false
   },
   {
     "id": 11,
     "name": "Morn",
-    "image": "https://m.media-amazon.com/images/M/MV5BMzFkNjM5ZTItNTAzNy00NjZmLTliMjUtMTEyZDRmZDJmZWIyXkEyXkFqcGdeQXVyMzQ2MDUxMTg@._V1_.jpg"
+    "image": "https://m.media-amazon.com/images/M/MV5BMzFkNjM5ZTItNTAzNy00NjZmLTliMjUtMTEyZDRmZDJmZWIyXkEyXkFqcGdeQXVyMzQ2MDUxMTg@._V1_.jpg",
+    "clicked": false
   },
   {
     "id": 12,
     "name": "Garak",
-    "image": "http://www.letswatchstartrek.com/wp-content/uploads/2013/06/Picture-72.png"
+    "image": "http://www.letswatchstartrek.com/wp-content/uploads/2013/06/Picture-72.png",
+    "clicked": false
   }
 ]

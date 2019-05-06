@@ -2,6 +2,7 @@ import React from "react";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import friends from "./friends.json";
+import Nav from "./components/Nav";
 import "./App.css";
 
 // Refactor the App component so that it's a class component. Set the component's initial state to the friends JSON array. 
@@ -12,22 +13,23 @@ import "./App.css";
 
 class App extends React.Component {
   state = {
-    friends: friends
+    friends,
+    currentScore: 0,
+    topScore: 0,
+    message: "Click any character to Engage",
+    clicked: [13]
   };
-
-  // removeFriend = id => {
-  //   const friends = this.state.friends.filter(friend => friend.id !== id);
-  //   this.setState({ friends });
-  // };
 
   render(){
     return (
+      <div>
+      <Nav 
+      message = {this.state.message}
+      currentScore = {this.state.currentScore} 
+      topScore = {this.state.topScore} />
       <Wrapper>
-        {/* <div className="header-area"> */}
-        <h1 className="title">React Clicky Game</h1>
-        <h3 className="subtext">Click on an image to earn points, but don't click on any more than once!</h3>
-        {/* </div> */}
-        {/* <div className="cards-area"> */}
+        <div className="header-area"></div>
+        <div className="cards-area">
         {this.state.friends.map(friend => (
           <FriendCard
             id={friend.id}
@@ -36,8 +38,9 @@ class App extends React.Component {
           />
         )
         )}
-        {/* </div> */}
+        </div>
       </Wrapper>
+      </div>
     );
   }
 }
