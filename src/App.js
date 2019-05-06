@@ -43,7 +43,7 @@ class App extends Component {
       currentScore: 0,
       topScore: this.state.topScore,
       message: "You need more training.",
-      clicked: []
+      clicked: [13]
     });
     this.cardShuffle();
   };
