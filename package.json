@@ -1,15 +1,16 @@
 {
   "name": "exercise1",
-  "homepage": "http://travishill1.github.io/DS9-Clicky/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0"
   },
+  "homepage": "http://travishill1.github.io/DS9-Clicky/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
