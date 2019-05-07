@@ -9,3 +9,19 @@
   align-content: flex-start;
   overflow: auto;
 }
+
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    padding-top: 50px;
+    background: #ECEFF1;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    /* flex-direction: row wrap; */
+    padding: 2px;
+    justify-content: center;
+    /* align-content: flex-start; */
+    overflow: auto;
+  }
+}
+

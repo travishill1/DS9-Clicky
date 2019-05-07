@@ -4,6 +4,7 @@
   min-height: 70px;
   position: fixed;
   width: 100%;
+  margin: auto;
   z-index: 99;
   white-space: nowrap;
 }
@@ -33,6 +34,51 @@
   color: goldenrod;
   font-weight: 800;
   font-size: 2rem;
-  margin: 0 auto;
+  /* margin: auto; */
+  margin-right: 0;
   padding: 1%;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav {
+    background: black;
+    height: 80px;
+    min-height: 80px;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    z-index: 99;
+    white-space: nowrap;
+  }
+  
+  .nav-title {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .message {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0%;
+    text-align: center;
+  }
+  
+  .scores {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 400;
+    font-size: 1rem;
+    /* margin: auto; */
+    /* margin-right: 0; */
+    padding-bottom: 1%;
+    text-align: center;
+  }
 }

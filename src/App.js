@@ -10,7 +10,7 @@ class App extends Component {
     friends,
     currentScore: 0,
     topScore: 0,
-    clicked: [13],
+    clicked: [0],
     message: "Click any character to Engage"
   };
 
@@ -30,7 +30,10 @@ class App extends Component {
       message: "Excellent work ensign."
     });
     if (newScore === 12) {
-      this.setState({ message: "Congratulations, you've won!" });
+      this.setState({ 
+        topScore: newScore,
+        clicked: [0],
+        message: "Congratulations, you've won!"});
     }
     else if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
@@ -43,7 +46,7 @@ class App extends Component {
       currentScore: 0,
       topScore: this.state.topScore,
       message: "You need more training.",
-      clicked: [13]
+      clicked: [0]
     });
     this.cardShuffle();
   };
